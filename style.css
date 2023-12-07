@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+body {
+	background-color: #c9c9c9;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	
+}
+.calculator {
+	background-color: #3D3D3D;
+	border-radius: 15px;
+	box-shadow: 3px 3px 20px rgb(31, 31, 31);
+	padding: 20px;
+	max-width: 410px;
+	
+}
+.btn {
+	background-color: #323232;
+	width: 80px;
+	height: 80px;
+	font-size: 40px;
+	border-radius: 10px;
+	color: white;
+	text-shadow: 1px 1px 2px rgb(31, 31, 31);
+	box-shadow: 5px 5px 5px rgb(31, 31, 31);
+	margin: 8px;
+}
+.btn:hover {
+	filter: brightness(60%);
+
+}
+.long {
+	width: 180px;
+}
+.footer {
+	color: #4F4F4F;
+	font-size: 40px;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	position: absolute; 
+}
+.display{
+	height: 100px;
+	width: 400px;
+	background-color: #202020;
+	border-radius: 10px;
+	text-align: end;
+	justify-content: end;
+	border: 3px solid black;
+	color: white;
+	font-size: 64px;
+}
+
+
+
