@@ -31,6 +31,22 @@ body {
 	filter: brightness(60%);
 
 }
+.operator{
+	background-color: #323232;
+	width: 80px;
+	height: 80px;
+	font-size: 40px;
+	border-radius: 10px;
+	color: white;
+	text-shadow: 1px 1px 2px rgb(31, 31, 31);
+	box-shadow: 5px 5px 5px rgb(31, 31, 31);
+	margin: 8px;
+	
+}
+.operator:hover {
+	filter: brightness(60%);
+
+}
 .long {
 	width: 180px;
 }
