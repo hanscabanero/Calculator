@@ -11,10 +11,13 @@
 <body>
     <div class="container">
         <div class="calculator">
-            <div class="display"></div>
-                <button onclick="ac();" style="background-color: #B56868;" class="operator ac">AC</button>
+            <div class="display">
+                <div class="previousNumber"></div>
+                <div class="currentNumber"></div>
+            </div>
+                <button style="background-color: #B56868;" class="clear ">AC</button>
 
-                <button style="background-color: #4B5C88;" class="operator"> C</button>
+                <button style="background-color: #4B5C88;" class="clear"> C</button>
                 
                 <button class="operator">%</button>
                 <button class="operator">/</button>
@@ -31,8 +34,8 @@
                 <button class="btn">3</button>
                 <button class="operator">x</button>
                 <button class="btn">0</button>
-                <button class="btn">.</button>
-                <button class="operator long">=</button>
+                <button class="decimal operator">.</button>
+                <button class="equal clear long">=</button>
         </div>
     </div>
     <div class="footer"> Copyright © | Hans Cabanero | The Odin Project</div>
